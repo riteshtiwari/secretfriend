@@ -1,0 +1,41 @@
+10
+
+dir
+79
+http://192.168.1.88/svn/SecretFriend/SecretFriend/js/utils
+http://192.168.1.88/svn/SecretFriend
+
+
+
+2015-12-17T09:32:04.484559Z
+72
+kiran
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e4ec93e0-716e-497b-9d5b-49e1622484d3
+
+utils.js
+file
+
+
+
+
+
+92b5a6a89df56a22a4964cd0bc71f3aa
+2015-12-17T09:32:04.484559Z
+72
+kiran
+has-props
+

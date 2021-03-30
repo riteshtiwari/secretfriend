@@ -1,0 +1,187 @@
+<style>
+	
+.faceGif_1{
+	content:url("img/gifimage/face1gif.gif");
+}
+
+.faceGif_2{
+	content:url("img/gifimage/face2gif.gif");
+}
+
+.faceGif_3{
+	content:url("img/gifimage/face3gif.gif");
+}
+
+.faceGif_4{
+	content:url("img/gifimage/face4gif.gif");
+}
+
+.faceGif_5{
+	content:url("img/gifimage/face5gif.gif");
+}
+
+.faceGif_6{
+	content:url("img/gifimage/face6gif.gif");
+}
+
+.faceGif_7{
+	content:url("img/gifimage/face7gif.gif");
+}
+	
+ 
+</style>
+<div class="fullscreen-container">
+<div class="menuCls navbar-default" ng-init="toGetDefaultSettings()">
+   <div class="container-fluid">
+      <div class="col-sm-4 navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         <span class="sr-only">Navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         </button>
+         <a class="mainLogo" href="#/home"><img src="img/logo1.png" alt="">SECRET<span>FRIEND</span></a>
+      </div>
+      <div class="navbar-collapse collapse">
+         <ul class="nav menuItems navbar-right">
+            <li><button type="button" class="btn btn-sm redBtn text-uppercase" ng-click="doLogout();">Logout </button></li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div class="mainContainerN container-fluid" ng-init="toShowDefaultSetting();">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-xs-12">
+            <div class="col-sm-4 text-center marTop10">
+               <div class="messageAvatarCls">
+                  <img class="text-center avatarAlign" alt="" ng-src={{avatarImgURL}} width="82%" height="82%" id="avatarID">
+                  <button type="button" ng-click="toUpdateSetting()" class="btn greenBtnN btn-lg text-uppercase">SAVE SETTINGS AS DEFAULT</button>
+               </div>
+            </div>
+            <!-- <div class="col-sm-8"> -->
+            <!-- <div class="jumbotron marTop20"> -->
+            <div class="col-sm-8 marTop10" id="accordianWrapper">
+               <div class="panel-group marTop30" id="accordion">
+               
+                <div class="panel panelBMar">
+                     <div class="panel-heading panelHeading">
+                        <h4 class="panel-title panel-title-adjust panelTitle">   
+                        	<div data-toggle="collapse" data-target="#collapseOne" class="circle"></div>                        
+                            <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne">
+                            MESSAGE TO BE SENT
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseOne" class="panel-collapse collapse in" style="height: auto;">
+                        <div class="panel-body" ng-init="init()">
+                           <textarea id="ttsText" class="sendMessageTextboxCls textArea" ng-model="messageText">
+		                     </textarea>
+                           <div class="col-sm-12 col-xs-12">
+                              <button class="btn btn-default col-sm-2" ng-click="playText()">play</button>
+                              <audio id="audioPlayer" preload="auto" controls="controls" class="col-sm-10 col-xs-8 pull-right _audio" play="onPlayAudio()">
+                              </audio>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="panel panelBMar" ng-init="getAllDeviceList()">
+                     <div class="panel-heading panelHeading">
+                        <h4 class="panel-title panel-title-adjust panelTitle">
+                           <div data-toggle="collapse" data-target="#collapseTwo" class="circle collapsed"></div>  
+                           <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" style="width: 95%;">
+                           SELECT A DEVICE
+                           <span class="pull-right" id="deviceNameText"></span> 
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseTwo" class="panel-collapse collapse" style="height: auto;">
+                        <div class="panel-body">
+                           <div class="DocumentListN">
+                              <ul class="list-inline row deviceLst" id="">
+                              	<li ng-hide="isDeviceAvailable">{{emptyDeviceList}}</li>
+                                 <li class="DocumentItemN" ng-repeat="device in deviceList" >
+                                    <img name="activeDevice" id={{device.id}} src="img/device_Unselected.png" class="text-center img-responsive" ng-click="toSelectDevice(device)"/>
+                                    <div style="width: 100%;text-align: center;"><span class="text-centerMsgSending">{{device.deviceName}}</span></div>
+                                 </li>
+                              </ul>
+                           </div>
+                           </div>
+                     </div>
+                  </div>
+                  <div class="panel panelBMar" ng-init="getAvatarList()">
+                     <div class="panel-heading panelHeading">
+                        <h4 class="panel-title panel-title-adjust panelTitle">
+                        	<div data-toggle="collapse" data-target="#collapseThree" class="circle collapsed"></div>
+                           <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" class="collapsed" style="width: 95%;">
+                           SELECT A FRIEND
+                           <span class="pull-right" id="avatarName">{{avatarName}}</span>
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseThree" class="panel-collapse collapse" style="height: 0px;">
+                        <div class="panel-body">
+                           <div class="DocumentList">
+                              <ul class="list-inline listInline row" id="avatarLstCls">
+                                 <li ng-hide="isAvatarAvailable">{{emptyAvatarList}}</li>
+                                 <li class="DocumentItem" ng-repeat="avatar in avatarList" >
+                                 	<img alt="" id="avr_{{avatar.id}}" ng-src={{avatar.avatarimageurl}} class="img-responsive" ng-click="toSelectAvatarImg(avatar)"/>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="panel panelBMar">
+                     <div class="panel-heading panelHeading">
+                        <h4 class="panel-title panel-title-adjust panelTitle">
+                        	<div data-toggle="collapse" data-target="#collapsefour" class="circle collapsed"></div>
+                           <a data-toggle="collapse" data-parent="#accordion" data-target="#collapsefour" class="collapsed" style="width: 95%;">
+                           SELECT A VOICE
+                           <span class="pull-right" id="voiceSelected">{{selectedVoice}}</span> 
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapsefour" class="panel-collapse collapse" style="height: 0px;">
+                        <div class="panel-body">
+                           <div class="DocumentListN">
+                              <ul class="list-inline listInline row">
+                                 <li class="DocumentItemN">
+                                    <img alt="Male" id="maleVoice" src="img/voice_male_avatar.png" class="img-responsive"  name="usenglishmale" ng-click="onVoiceClick('maleVoice')" style="display: inline-block !important;" >
+                                   <!--  <span id="maleText">Male</span> -->  <!-- Changes By 1010 Date: Oct 1,2015 -->
+                                    <img alt="Female" id="femaleVoice" src="img/voice_female_avatar.png" class="img-responsive"  name="usenglishfemale"  ng-click="onVoiceClick('femaleVoice')" style="display: inline-block !important;margin-left:20px;">
+                                    <!-- <span id="femaleText">Female</span>  --> <!-- Changes By 1010 Date: Oct 1,2015 -->
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+               <div align="center">
+               <button class="btn greenBtn btn-lg text-uppercase" ng-click="toSendMessage();" id="sendBtn">Send Message</button>
+               </div>               
+               <!-- Panel group End -->
+            </div>
+         </div>
+         <!-- </div> -->
+         <!-- </div>	 -->
+      </div>
+   </div>
+   
+   <div id="le-alert" class="popUp alert alert-warn alert-block fade in" style="z-index: 1111;display: none;">
+      <div class="modalHeader">
+         <!-- <button type="button" class="close closeBtn"
+            ng-click="toCloseAlert(this)"></button> -->
+            
+         <h4 class="modalTitle">Secret Friend</h4>
+      </div>
+      <div id="messageTxt" class="modalBody">
+         <p></p>
+      </div>
+   </div>
+   <div class="modal-backdrop fade in" id="lightBoxBg" style="display: none;"></div>
+</div>
+</div>

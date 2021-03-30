@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="275px" height="170px"
+	 viewBox="0 0 275 170" enable-background="new 0 0 275 170" xml:space="preserve">
+<title>icon-sprite</title>
+<desc>Created with Sketch.</desc>
+<image overflow="visible" enable-background="new    " width="38" height="38" id="icon-close" xlink:href="4D13C683.png"  sketch:type="MSBitmapLayer" transform="matrix(1 0 0 1 72 129)">
+</image>
+<path id="instagram-svg" sketch:type="MSShapeGroup" fill="#292929" d="M48.748,146H35.251c-2.345,0-4.251,1.906-4.251,4.252v4.49
+	v9.006c0,2.346,1.907,4.252,4.251,4.252h13.497c2.344,0,4.252-1.906,4.252-4.252v-9.006v-4.49C53,147.906,51.092,146,48.748,146
+	L48.748,146z M49.967,148.535l0.486-0.001v0.484v3.243l-3.716,0.014l-0.013-3.729L49.967,148.535L49.967,148.535z M38.86,154.742
+	c0.704-0.975,1.847-1.615,3.139-1.615c1.292,0,2.436,0.641,3.14,1.615c0.458,0.637,0.732,1.414,0.732,2.258
+	c0,2.135-1.738,3.871-3.873,3.871s-3.872-1.736-3.872-3.871C38.128,156.156,38.402,155.379,38.86,154.742L38.86,154.742z
+	 M50.856,163.748c0,1.163-0.945,2.109-2.108,2.109H35.251c-1.163,0-2.108-0.946-2.108-2.109v-9.006h3.284
+	c-0.284,0.697-0.443,1.459-0.443,2.258c0,3.316,2.698,6.016,6.015,6.016c3.318,0,6.016-2.699,6.016-6.016
+	c0-0.799-0.161-1.561-0.444-2.258h3.285V163.748L50.856,163.748z"/>
+<path id="twitter-svg" sketch:type="MSShapeGroup" fill="#292929" d="M25.526,162.756h-3.988c-2.837,0-3.289-1.277-3.289-2.46
+	c0-0.562,0.034-1.487,0.068-2.621h6.663c0.997,0,2.9-0.415,2.9-2.271c0-1.853-0.878-3.067-2.055-3.067H18.4
+	c-0.008-2.673-0.179-5.337-2.748-5.337c-1.063,0-1.925,0.443-2.288,1.545c-0.478,1.447-0.352,3.143-0.345,4.649
+	c0.002,0.286,0.003,0.575,0.004,0.861c0.003,0.987,0.023,1.98,0.027,2.973c0.003,1.067,0.004,2.136,0.004,3.202
+	c0,5.979,5.346,7.673,6.371,7.673c1.026,0,5.042,0.097,5.767,0.097c0.726,0,2.808-0.195,2.808-2.336S26.522,162.756,25.526,162.756
+	L25.526,162.756z"/>
+<path id="facebook-svg" sketch:type="MSShapeGroup" fill="#292929" d="M10,153.801H6.595v-2.18c0-0.818,0.556-1.01,0.947-1.01h2.403
+	v-3.598L6.635,147c-3.674,0-4.51,2.684-4.51,4.402v2.398H0v3.707h2.125V168h4.47v-10.492H9.61L10,153.801L10,153.801z"/>
+<g id="arrow-right" transform="translate(81.000000, 112.000000)" sketch:type="MSLayerGroup">
+	<g id="Group">
+		<g id="Clipped">
+			<g>
+				<g id="SVGID_1_">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="1.095" y="4.7" width="19.03" height="2.139">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="1.095" y="4.7" width="19.03" height="2.139" id="mask-2">
+					<g filter="url(#Adobe_OpacityMaskFilter)">
+						<rect id="path-1" fill="#FFFFFF" width="22.474" height="11.68"/>
+					</g>
+				</mask>
+				<path id="Shape" sketch:type="MSShapeGroup" mask="url(#mask-2)" fill="none" stroke="#FFFFFF" stroke-width="2.1395" d="
+					M1.095,5.77h19.03"/>
+			</g>
+			<g>
+				<g id="SVGID_2_">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="15.764" y="0.333" width="7.13" height="11.015">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="15.764" y="0.333" width="7.13" height="11.015" id="mask-4">
+					<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+						<rect id="path-3" fill="#FFFFFF" width="22.474" height="11.68"/>
+					</g>
+				</mask>
+				<path id="Shape_1_" sketch:type="MSShapeGroup" mask="url(#mask-4)" fill="none" stroke="#FFFFFF" stroke-width="2.1395" d="
+					M16.702,1.091l4.676,4.657l-4.86,4.842"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="arrow-down" transform="translate(64.000000, 123.500000) rotate(90.000000) translate(-64.000000, -123.500000) translate(52.500000, 117.500000)" sketch:type="MSLayerGroup">
+	<g id="Group_1_">
+		<g id="Clipped_1_">
+			<g>
+				<g id="SVGID_3_">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" id="mask-6">
+					<g filter="url(#Adobe_OpacityMaskFilter_2_)">
+						
+							<rect id="path-5" x="5.397" y="-5.397" transform="matrix(2.578893e-006 1 -1 2.578893e-006 17.0769 -5.3967)" fill="#FFFFFF" width="11.68" height="22.474"/>
+					</g>
+				</mask>
+				<path id="Shape_2_" sketch:type="MSShapeGroup" mask="url(#mask-6)" fill="none" stroke="#FFFFFF" stroke-width="2.1395" d="
+					M1.096,5.769h19.029"/>
+			</g>
+			<g>
+				<g id="SVGID_4_">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" id="mask-8">
+					<g filter="url(#Adobe_OpacityMaskFilter_3_)">
+						
+							<rect id="path-7" x="5.397" y="-5.397" transform="matrix(2.578893e-006 1 -1 2.578893e-006 17.0769 -5.3967)" fill="#FFFFFF" width="11.68" height="22.474"/>
+					</g>
+				</mask>
+				<path id="Shape_3_" sketch:type="MSShapeGroup" mask="url(#mask-8)" fill="none" stroke="#FFFFFF" stroke-width="2.1395" d="
+					M16.702,1.091l4.677,4.658l-4.86,4.841"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="happy_face" transform="translate(0.000000, 114.000000)" sketch:type="MSLayerGroup">
+	<path id="Shape_4_" sketch:type="MSShapeGroup" fill="#292929" d="M24.831,31.41c-10.424,0-18.898-8.421-18.898-18.778h3.39
+		c0,8.505,6.949,15.41,15.508,15.41c8.559,0,15.508-6.905,15.508-15.41h3.39C43.729,22.989,35.254,31.41,24.831,31.41L24.831,31.41z
+		"/>
+	<g id="Group_2_" sketch:type="MSShapeGroup">
+		<path id="Shape_5_" fill="#292929" d="M11.864,5.979h-3.39c0-1.347-1.102-2.357-2.373-2.357c-1.271,0-2.373,1.095-2.373,2.357
+			h-3.39c0-3.199,2.627-5.727,5.763-5.727C9.237,0.252,11.864,2.863,11.864,5.979L11.864,5.979z"/>
+		<path id="Shape_6_" fill="#292929" d="M49.322,5.979h-3.39c0-1.347-1.102-2.357-2.373-2.357c-1.271,0-2.373,1.095-2.373,2.357
+			h-3.39c0-3.199,2.627-5.727,5.763-5.727C46.695,0.252,49.322,2.863,49.322,5.979L49.322,5.979z"/>
+	</g>
+</g>
+<g id="Group_3_" transform="translate(20.724638, 19.782609)" sketch:type="MSShapeGroup">
+	<path id="Shape_7_" d="M208.449,42.13l20.631,20.63c0.564,0.565,0.564,1.413,0,1.978c-0.565,0.565-1.414,0.565-1.979,0
+		l-20.631-20.63c-0.564-0.565-0.564-1.413,0-1.978C207.036,41.565,207.885,41.565,208.449,42.13L208.449,42.13z"/>
+	<path id="Shape_8_" d="M206.471,62.761l20.631-20.63c0.564-0.565,1.413-0.565,1.979,0c0.564,0.565,0.564,1.413,0,1.978
+		l-20.631,20.725c-0.564,0.565-1.413,0.565-1.979,0C205.906,64.268,205.906,63.326,206.471,62.761L206.471,62.761z"/>
+</g>
+<g id="Group_4_" transform="translate(16.014493, 19.782609)" sketch:type="MSShapeGroup">
+	<path id="Shape_9_" d="M139.884,41.659h29.203c0.754,0,1.413,0.66,1.413,1.413c0,0.754-0.659,1.413-1.413,1.413h-29.203
+		c-0.754,0-1.413-0.659-1.413-1.413C138.471,42.319,139.13,41.659,139.884,41.659L139.884,41.659z"/>
+	<path id="Shape_10_" d="M139.884,52.022h29.203c0.754,0,1.413,0.66,1.413,1.413c0,0.754-0.659,1.413-1.413,1.413h-29.203
+		c-0.754,0-1.413-0.659-1.413-1.413C138.471,52.681,139.13,52.022,139.884,52.022L139.884,52.022z"/>
+	<path id="Shape_11_" d="M139.884,62.384h29.203c0.754,0,1.413,0.66,1.413,1.413c0,0.754-0.659,1.413-1.413,1.413h-29.203
+		c-0.754,0-1.413-0.659-1.413-1.413C138.471,63.044,139.13,62.384,139.884,62.384L139.884,62.384z"/>
+</g>
+<g id="menu_close" transform="translate(68.000000, 41.000000)" sketch:type="MSLayerGroup">
+	<circle id="Oval_2_" sketch:type="MSShapeGroup" fill="#FFFFFF" cx="32.5" cy="32.217" r="32.029">
+	</circle>
+	<g id="Group_5_" transform="translate(20.724638, 19.782609)" sketch:type="MSShapeGroup">
+		<path id="Shape_12_" d="M2.449,1.13l20.63,20.63c0.565,0.565,0.565,1.413,0,1.978c-0.565,0.565-1.413,0.565-1.978,0L0.471,3.108
+			c-0.565-0.565-0.565-1.413,0-1.978C1.036,0.565,1.884,0.565,2.449,1.13L2.449,1.13z"/>
+		<path id="Shape_13_" d="M0.471,21.761l20.63-20.63c0.565-0.565,1.413-0.565,1.978,0c0.565,0.565,0.565,1.413,0,1.978L2.449,23.833
+			c-0.565,0.565-1.413,0.565-1.978,0C-0.094,23.268-0.094,22.326,0.471,21.761L0.471,21.761z"/>
+	</g>
+</g>
+<g id="Group_6_" transform="translate(16.014493, 19.782609)" sketch:type="MSShapeGroup">
+	<path id="Shape_14_" fill="#FCFAFA" d="M1.884,41.659h29.203c0.753,0,1.413,0.66,1.413,1.413c0,0.754-0.66,1.413-1.413,1.413H1.884
+		c-0.753,0-1.413-0.659-1.413-1.413C0.471,42.319,1.131,41.659,1.884,41.659L1.884,41.659z"/>
+	<path id="Shape_15_" fill="#FCFAFA" d="M1.884,52.022h29.203c0.753,0,1.413,0.66,1.413,1.413c0,0.754-0.66,1.413-1.413,1.413H1.884
+		c-0.753,0-1.413-0.659-1.413-1.413C0.471,52.681,1.131,52.022,1.884,52.022L1.884,52.022z"/>
+	<path id="Shape_16_" fill="#FCFAFA" d="M1.884,62.384h29.203c0.753,0,1.413,0.66,1.413,1.413c0,0.754-0.66,1.413-1.413,1.413H1.884
+		c-0.753,0-1.413-0.659-1.413-1.413C0.471,63.044,1.131,62.384,1.884,62.384L1.884,62.384z"/>
+</g>
+<g id="logo-black" transform="translate(138.000000, 0.000000)" sketch:type="MSLayerGroup">
+	<path id="Shape_17_" sketch:type="MSShapeGroup" fill="#292929" d="M11.919,14.923v21.049H5.508V14.923h-5.18L1.563,9.25h3.945
+		V0.329h6.411V9.25h4.686v5.673H11.919L11.919,14.923z"/>
+	<path id="Shape_18_" sketch:type="MSShapeGroup" fill="#292929" d="M18.372,36.013V9.25h6.411v26.763H18.372L18.372,36.013z"/>
+	<path id="Shape_19_" sketch:type="MSShapeGroup" fill="#292929" d="M45.703,36.013V22.775c0-3.7-0.616-8.592-5.384-8.592
+		c-1.685,0-3.411,0.945-4.397,2.343c-1.15,1.686-1.15,4.728-1.15,6.701v12.704h-6.412V9.25h5.918v2.302
+		c2.138-2.056,4.233-3.248,7.316-3.248c2.959,0,6.165,1.438,8.056,3.7c2.055,2.508,2.466,5.961,2.466,9.126v14.841h-6.412V36.013z"
+		/>
+	<path id="Shape_20_" sketch:type="MSShapeGroup" fill="#292929" d="M55.979,36.013V9.25h6.412v26.763H55.979L55.979,36.013z"/>
+	<path id="Shape_21_" sketch:type="MSShapeGroup" fill="#292929" d="M75.543,14.923v21.049h-6.412V14.923h-4.768V9.25h4.768V0.329
+		h6.412V9.25h4.686v5.673H75.543L75.543,14.923z"/>
+	<path id="Shape_22_" sketch:type="MSShapeGroup" fill="#292929" d="M107.23,25.489H86.475c0.165,0.74,0.494,1.357,0.863,1.932
+		c1.439,2.22,3.863,3.577,6.494,3.577c2.59,0,4.85-1.069,6.165-3.413h6.74c-1.726,5.427-7.233,9.291-12.905,9.291
+		c-8.015,0-14.098-6.208-14.098-14.183c0-8.017,5.96-14.348,14.057-14.348c7.809,0,13.81,6.167,13.81,13.937
+		C107.601,23.31,107.436,24.42,107.23,25.489L107.23,25.489z M93.832,14.225c-3.904,0-6.658,2.302-7.563,6.125h14.797
+		C100.408,16.485,97.736,14.225,93.832,14.225L93.832,14.225z"/>
+	<path id="Shape_23_" sketch:type="MSShapeGroup" fill="#292929" d="M110.807,36.013V0.329h6.412v35.684H110.807L110.807,36.013z"/>
+	<path id="Shape_24_" sketch:type="MSShapeGroup" fill="#292929" d="M120.342,36.013V0.329h6.412v35.684H120.342L120.342,36.013z"/>
+	<path id="Shape_25_" sketch:type="MSShapeGroup" fill="#292929" d="M62.76,3.906c0,1.973-1.603,3.535-3.534,3.535l0,0
+		c-1.973,0-3.534-1.603-3.534-3.535l0,0c0-1.974,1.603-3.536,3.534-3.536l0,0C61.157,0.329,62.76,1.932,62.76,3.906L62.76,3.906
+		L62.76,3.906z"/>
+	<path id="Shape_26_" sketch:type="MSShapeGroup" fill="#292929" d="M25.153,3.906c0,1.973-1.603,3.535-3.534,3.535l0,0
+		c-1.973,0-3.535-1.603-3.535-3.535l0,0c0-1.974,1.604-3.536,3.535-3.536l0,0C23.551,0.329,25.153,1.932,25.153,3.906L25.153,3.906
+		L25.153,3.906z"/>
+</g>
+<g id="logo" sketch:type="MSLayerGroup">
+	<path id="Shape_27_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M11.919,14.923v21.049H5.507V14.923H0.329L1.562,9.25h3.945
+		V0.329h6.412V9.25h4.686v5.673H11.919L11.919,14.923z"/>
+	<path id="Shape_28_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M18.372,36.013V9.25h6.412v26.763H18.372L18.372,36.013z"/>
+	<path id="Shape_29_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M45.704,36.013V22.775c0-3.7-0.617-8.592-5.384-8.592
+		c-1.685,0-3.411,0.945-4.397,2.343c-1.151,1.686-1.151,4.728-1.151,6.701v12.704h-6.412V9.25h5.918v2.302
+		c2.137-2.056,4.233-3.248,7.316-3.248c2.959,0,6.165,1.438,8.056,3.7c2.055,2.508,2.466,5.961,2.466,9.126v14.841h-6.412V36.013z"
+		/>
+	<path id="Shape_30_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M55.979,36.013V9.25h6.412v26.763H55.979L55.979,36.013z"/>
+	<path id="Shape_31_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M75.542,14.923v21.049h-6.412V14.923h-4.768V9.25h4.768V0.329
+		h6.412V9.25h4.686v5.673H75.542L75.542,14.923z"/>
+	<path id="Shape_32_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M107.231,25.489H86.475c0.165,0.74,0.493,1.357,0.863,1.932
+		c1.438,2.22,3.863,3.577,6.494,3.577c2.589,0,4.85-1.069,6.165-3.413h6.74c-1.726,5.427-7.233,9.291-12.905,9.291
+		c-8.015,0-14.098-6.208-14.098-14.183c0-8.017,5.96-14.348,14.057-14.348c7.809,0,13.81,6.167,13.81,13.937
+		C107.601,23.31,107.436,24.42,107.231,25.489L107.231,25.489z M93.832,14.225c-3.904,0-6.658,2.302-7.563,6.125h14.796
+		C100.408,16.485,97.736,14.225,93.832,14.225L93.832,14.225z"/>
+	<path id="Shape_33_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M110.807,36.013V0.329h6.412v35.684H110.807L110.807,36.013z"/>
+	<path id="Shape_34_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M120.342,36.013V0.329h6.412v35.684H120.342L120.342,36.013z"/>
+	<path id="Shape_35_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M62.76,3.906c0,1.973-1.603,3.535-3.535,3.535l0,0
+		c-1.973,0-3.535-1.603-3.535-3.535l0,0c0-1.974,1.603-3.536,3.535-3.536l0,0C61.157,0.329,62.76,1.932,62.76,3.906L62.76,3.906
+		L62.76,3.906z"/>
+	<path id="Shape_36_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M25.153,3.906c0,1.973-1.603,3.535-3.535,3.535l0,0
+		c-1.973,0-3.535-1.603-3.535-3.535l0,0c0-1.974,1.603-3.536,3.535-3.536l0,0C23.55,0.329,25.153,1.932,25.153,3.906L25.153,3.906
+		L25.153,3.906z"/>
+</g>
+</svg>

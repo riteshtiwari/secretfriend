@@ -1,0 +1,81 @@
+<div class="form_Wrapper container-fluid">
+	<div class="row">
+		<div class="col-sm-12 col-xs-12">
+			<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<div class="secretFriendTitle">
+						<img src="img/register_title.png" class="img-responsive" alt="" width="30%" height="30%" />
+					</div>
+				</div>
+				<div class="col-sm-2"></div> 
+			
+		</div>
+		</div>
+		
+		<div class="row">
+		<div class="col-sm-12 col-xs-12">
+			<div class="col-sm-2"></div>
+			<div class="col-md-8 col-sm-8">
+			<form class="form-horizontal" role="form" name="signupForm">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-md-2 col-sm-2 col-xs-3 pull-left">
+								<img alt="" src="img/email.png" class="img-responsive loginIcons" />
+							</div>
+							<div class="col-md-10 col-sm-10 col-xs-9">
+								<input type="email" class="formControl form-control" id="email"
+									name="user" ng-model="usermodel.reg_email" placeholder="email" required />
+							</div>
+						</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="form-group">
+							<div class="col-md-2 col-sm-2 col-xs-3 pull-left">
+								<img alt="" src="img/lock.png" class="img-responsive loginIcons" />
+							</div>
+							<div class="col-md-10 col-sm-10 col-xs-9">
+								<input type="password" class="formControl form-control" id="pwd" name="password" ng-model="usermodel.reg_password" placeholder="password" required />
+							</div>
+						</div>
+						</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+			  		<div class="col-sm-6 col-xs-6">
+			  			<img alt="" ng-src="{{maleAvatar.images.current}}" id="rg_maleAvatar" class="rgMaleAvatar img-responsive text-center" ng-click="toSelectAvatar();">
+			  		</div>
+			  		<div class="col-sm-6 col-xs-6">
+			  			<img alt="" ng-src="{{femaleAvatar.images.current}}" id="rg_femaleAvatar" class="rgFemaleAvatar img-responsive text-center" ng-click="toSelectFemaleAvatar();">
+			  		</div>
+			  </div>
+				
+				<div class="form-group loginBtn_wrapper text-center">
+			   		<input type="submit" value="" class="registrationBtn" id="signUpBtn" ng-click="doSignUp(signupForm)"
+						  ng-disabled="signupForm.email.$dirty && signupForm.email.$invalid ||
+						  signupForm.password.$dirty && signupForm.password.$invalid">
+			  	</div>
+			  	</div>
+				</form>
+				</div>
+				<div class="col-sm-2"></div>
+				</div>
+		</div>
+		
+		<div class="row"> 
+	 	<div class="col-sm-12 col-xs-12">
+	 		<div class="col-sm-2"></div>
+	 		<div class="col-sm-8 secretFriendImgs">
+			<div class="col-sm-6">
+				<img class="img-responsive imgCenter" src="img/avatar_login_boy.png" alt="" style="width: 45%;" />
+			</div>
+			<div class="col-sm-6">
+				<img class="img-responsive imgCenter" src="img/avatar_login_girl.png" alt="" style="width: 45%;" />
+			</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		</div>
+		
+		
+</div>	

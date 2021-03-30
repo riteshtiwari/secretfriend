@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SecretFriend/!svn/ver/77/SecretFriend/js/controller
+END
+mainCtrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SecretFriend/!svn/ver/72/SecretFriend/js/controller/mainCtrl.js
+END
+loginCtrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SecretFriend/!svn/ver/72/SecretFriend/js/controller/loginCtrl.js
+END
+registrationCtrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SecretFriend/!svn/ver/22/SecretFriend/js/controller/registrationCtrl.js
+END
+messageSendingCtrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SecretFriend/!svn/ver/72/SecretFriend/js/controller/messageSendingCtrl.js
+END
+homeCtrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SecretFriend/!svn/ver/77/SecretFriend/js/controller/homeCtrl.js
+END

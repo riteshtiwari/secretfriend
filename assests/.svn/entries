@@ -1,0 +1,40 @@
+10
+
+dir
+79
+http://192.168.1.88/svn/SecretFriend/SecretFriend/assests
+http://192.168.1.88/svn/SecretFriend
+
+
+
+2015-12-28T13:41:35.541752Z
+79
+atul
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e4ec93e0-716e-497b-9d5b-49e1622484d3
+
+css
+dir
+
+fonts
+dir
+
+images
+dir
+
+js
+dir
+
